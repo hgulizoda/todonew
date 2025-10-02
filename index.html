@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do simple</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="toDo-box">
+      <h1>Your to-dos for <span id="date">00/00/0000</span></h1>
+      <div class="input">
+        <input type="text" placeholder="Enter your task..." id="input" />
+        <button type="submit" id="add">Add</button>
+      </div>
+
+      <div class="toDo-box_bottom">
+        <div class="task">
+          <div class="left">
+            <div class="check"><span>✔</span></div>
+            <p>Clean the room</p>
+          </div>
+          <div class="right">
+            <button class="delete">Delete</button>
+            <button class="edit">Edit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
